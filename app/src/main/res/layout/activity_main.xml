@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716F81"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/myfont">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:paddingLeft="30dp"
+                    android:text="Ganti Kata Sandi"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/border_rounded_cornwe">
+
+            <EditText
+                android:id="@+id/pass_lama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="Password Lama"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/border_rounded_cornwe">
+
+            <EditText
+                android:id="@+id/pass_baru"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="Password Baru"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/border_rounded_cornwe">
+
+            <EditText
+                android:id="@+id/konfirm_pass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="Konfirmasi Password Baru"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="62dp"
+            android:background="@drawable/login_fill__rounded_color"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Konfirmasi"
+            android:textColor="#ffff"
+            android:textSize="22sp">
+
+        </Button>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716F81"
+    tools:context=".Find">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/myfont">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Find and Search"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/border_rounded_cornwe">
+
+            <ImageView
+                android:id="@+id/username_icon"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="47dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="100dp"
+                android:src="@drawable/kucing">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="250dp"
+                android:text="Nama : Aydel"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="280dp"
+                android:text="Jenis  : Anggora"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="310dp"
+                android:text="Hub    : +628 1242 0913 00"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/find1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/montserrat_semibold"
+                android:maxLines="3"
+                android:paddingLeft="70dp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="218dp"
+            android:background="@drawable/border_rounded_cornwe">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/search" />
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/home" />
+                <Button
+                    android:id="@+id/btnProfil"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="70dp"
+                    android:background="@drawable/profilbt" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+</ScrollView>

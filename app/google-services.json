@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734963086895",
+    "firebase_url": "https://app-cat-macri-default-rtdb.firebaseio.com",
+    "project_id": "app-cat-macri",
+    "storage_bucket": "app-cat-macri.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734963086895:android:a21486d80280d5522538da",
+        "android_client_info": {
+          "package_name": "com.example.saida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734963086895-etekdgkpsei6o9qu8f6aceb7nt71eoah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZcqlEsBmOU8xSkKPaaMPdj6eoZ8JSEBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734963086895-etekdgkpsei6o9qu8f6aceb7nt71eoah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

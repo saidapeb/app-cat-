@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#716F81"
+    tools:context=".lupa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@color/myfont">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="Lupa Kata Sandi"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/logoetime"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendaftaran"
+                app:srcCompat="@drawable/logoss" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="485dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="120dp"
+                    app:srcCompat="@drawable/elip" />
+
+                <TextView
+                    android:id="@+id/txtpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Password Baru :"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/editPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/white_bg_white"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:inputType="textPassword"
+                    android:paddingLeft="3dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtpass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Masukkan Ulang Password :"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/editPass2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/white_bg_white"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:inputType="textPassword"
+                    android:paddingLeft="3dp"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/resetpw"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="300dp"
+                    android:background="@drawable/login_fill__rounded_color"
+                    android:fontFamily="@font/daggersquare"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF"
+                    android:textSize="25dp"
+                    android:textStyle="bold">
+
+                </Button>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

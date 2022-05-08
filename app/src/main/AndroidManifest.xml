@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saida">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SAIDA">
+        <activity
+            android:name=".Faq"
+            android:exported="false" />
+        <activity
+            android:name=".FindDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Find"
+            android:exported="false" />
+        <activity
+            android:name=".care_and_healty"
+            android:exported="false" />
+        <activity
+            android:name=".lupaemail"
+            android:exported="false" />
+        <activity
+            android:name=".profilkucing"
+            android:exported="false" />
+        <activity
+            android:name=".opsi_profile"
+            android:exported="true" />
+        <activity
+            android:name=".info_eat"
+            android:exported="true" />
+        <activity
+            android:name=".care_and_healty2"
+            android:exported="true" />
+        <activity
+            android:name=".about_us"
+            android:exported="true" />
+        <activity
+            android:name=".edit_profile"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".lupa"
+            android:exported="true" />
+        <activity
+            android:name=".menu"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".splash_screen"
+            android:exported="true"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
